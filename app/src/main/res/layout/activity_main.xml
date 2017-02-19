@@ -3,7 +3,6 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="fill_parent"
     android:layout_height="wrap_content"
-    android:background="@drawable/bg"
     android:fillViewport="false"
     android:orientation="vertical"
     android:padding="10dp">
@@ -189,6 +188,7 @@
             android:id="@+id/result"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:onClick="evaluateQuiz"
             android:text="@string/view_score"
             android:textSize="25sp"
             android:textStyle="italic" />

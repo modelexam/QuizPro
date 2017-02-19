@@ -1,3 +1,26 @@
 <resources>
     <string name="app_name">QuizPro</string>
+    <string name="natrajan_chandrasekaran">Natrajan Chandrasekaran</string>
+    <string name="vishal_sikka">Vishal Sikka</string>
+    <string name="satya_nadal">Satya Nadal</string>
+    <string name="bob_iger">Bob Iger</string>
+    <string name="andrew_n_liveris">Andrew N. Liveris</string>
+    <string name="bill_gates">Bill Gates</string>
+    <string name="doug_mcmilon">Doug McMilon</string>
+    <string name="tim_cook">Tim Cook</string>
+    <string name="doug_mcmillon">Doug McMillon</string>
+    <string name="j_michael_pearson">J. Michael Pearson</string>
+    <string name="stephen_j_luczo">Stephen J. Luczo</string>
+    <string name="andrew_liveris">Andrew Liveris</string>
+    <string name="bobiger">BobIger</string>
+    <string name="steve_jobs">Steve Jobs</string>
+    <string name="michael_pearson">Michael Pearson</string>
+    <string name="mark_parker">Mark Parker</string>
+    <string name="enter_your_answer">ENTER YOUR ANSWER..</string>
+    <string name="view_score">VIEW SCORE...</string>
+    <string name="reset">Reset</string>
+    <string name="congratulations">CONGRATULATIONS!!!!!</string>
+    <string name="your_score_is_displayed_below">YOUR SCORE IS DISPLAYED BELOW</string>
+    <string name="back">BACK</string>
+    <string name="_0">0</string>
 </resources>

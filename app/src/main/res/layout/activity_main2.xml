@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.ctadmin.quizpro.Main2Activity">
+
+    <TextView
+        android:id="@+id/textviewsample"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="@string/congratulations"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textviewsample1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="@string/your_score_is_displayed_below"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/quizScore"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/_0"
+        android:padding="10dp"
+        android:textColor="#ffffdf"
+        android:textSize="180sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/next_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/back" />
+
+
+</LinearLayout>

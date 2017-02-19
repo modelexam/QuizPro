@@ -19,46 +19,30 @@
             android:layout_height="200dp"
             app:srcCompat="@drawable/tim" />
 
-        <RadioGroup
-            android:layout_width="wrap_content"
+        <CheckBox
+            android:id="@+id/checkbox1"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical">
+            android:text="@string/tim_cook" />
 
-            <RadioButton
-                android:id="@+id/yes_radio_button"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Tim Cook"
-                android:textAppearance="?android:textAppearanceMedium" />
-
-            <RadioButton
-                android:id="@+id/no_radio_button"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Doug McMillon"
-                android:textAppearance="?android:textAppearanceMedium" />
-        </RadioGroup>
-
-        <RadioGroup
-            android:layout_width="wrap_content"
+        <CheckBox
+            android:id="@+id/checkbox2"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical">
+            android:text="@string/doug_mcmillon" />
 
-            <RadioButton
-                android:id="@+id/yes_radio_button1"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="J. Michael Pearson"
+        <CheckBox
+            android:id="@+id/checkbox3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/j_michael_pearson" />
 
-                android:textAppearance="?android:textAppearanceMedium" />
+        <CheckBox
+            android:id="@+id/checkbox4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/stephen_j_luczo" />
 
-            <RadioButton
-                android:id="@+id/no_radio_button1"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Stephen J. Luczo"
-                android:textAppearance="?android:textAppearanceMedium" />
-        </RadioGroup>
 
         <ImageView
             android:id="@+id/imageView3"
@@ -67,6 +51,7 @@
             app:srcCompat="@drawable/bobiger" />
 
         <RadioGroup
+            android:id="@+id/rg1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="vertical">
@@ -75,34 +60,29 @@
                 android:id="@+id/yes_radio_button2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Andrew N. Liveris"
+                android:text="@string/andrew_liveris"
                 android:textAppearance="?android:textAppearanceMedium" />
 
             <RadioButton
-                android:id="@+id/no_radio_button2"
+                android:id="@+id/bob"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Bob Iger"
+                android:text="@string/bobiger"
                 android:textAppearance="?android:textAppearanceMedium" />
-        </RadioGroup>
 
-        <RadioGroup
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="vertical">
 
             <RadioButton
                 android:id="@+id/yes_radio_button3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Steve Jobs"
+                android:text="@string/steve_jobs"
                 android:textAppearance="?android:textAppearanceMedium" />
 
             <RadioButton
                 android:id="@+id/no_radio_button3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Doug McMilon"
+                android:text="@string/doug_mcmilon"
                 android:textAppearance="?android:textAppearanceMedium" />
         </RadioGroup>
 
@@ -110,9 +90,10 @@
             android:id="@+id/imageView2"
             android:layout_width="match_parent"
             android:layout_height="200dp"
-            app:srcCompat="@drawable/NChandrasekaran" />
+            app:srcCompat="@drawable/chandrasekaran" />
 
         <RadioGroup
+            android:id="@+id/rg2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="vertical">
@@ -121,34 +102,29 @@
                 android:id="@+id/yes_radio_button5"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Bill Gates"
+                android:text="@string/bill_gates"
                 android:textAppearance="?android:textAppearanceMedium" />
 
             <RadioButton
                 android:id="@+id/no_radio_button5"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Satya Nadal"
+                android:text="@string/satya_nadal"
                 android:textAppearance="?android:textAppearanceMedium" />
-        </RadioGroup>
 
-        <RadioGroup
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="vertical">
 
             <RadioButton
-                android:id="@+id/yes_radio_button6"
+                android:id="@+id/chandrasekaran"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Natrajan Chandrasekaran"
+                android:text="@string/natrajan_chandrasekaran"
                 android:textAppearance="?android:textAppearanceMedium" />
 
             <RadioButton
                 android:id="@+id/no_radio_button6"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Vishal Sikka"
+                android:text="@string/vishal_sikka"
                 android:textAppearance="?android:textAppearanceMedium" />
         </RadioGroup>
 
@@ -159,6 +135,7 @@
             app:srcCompat="@drawable/markparker" />
 
         <RadioGroup
+            android:id="@+id/rg3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="vertical">
@@ -167,34 +144,29 @@
                 android:id="@+id/yes_radio_button7"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Bob Iger"
+                android:text="@string/bob_iger"
                 android:textAppearance="?android:textAppearanceMedium" />
 
             <RadioButton
                 android:id="@+id/no_radio_button7"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Andrew N. Liveris"
+                android:text="@string/andrew_n_liveris"
                 android:textAppearance="?android:textAppearanceMedium" />
-        </RadioGroup>
 
-        <RadioGroup
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="vertical">
 
             <RadioButton
                 android:id="@+id/yes_radio_button8"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="J. Michael Pearson"
+                android:text="@string/michael_pearson"
                 android:textAppearance="?android:textAppearanceMedium" />
 
             <RadioButton
-                android:id="@+id/no_radio_button8"
+                android:id="@+id/mark"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Mark Parker"
+                android:text="@string/mark_parker"
                 android:textAppearance="?android:textAppearanceMedium" />
         </RadioGroup>
 
@@ -202,46 +174,41 @@
             android:id="@+id/imageView6"
             android:layout_width="match_parent"
             android:layout_height="200dp"
-            app:srcCompat="@drawable/tim" />
+            app:srcCompat="@drawable/vishalsikka" />
 
-        <RadioGroup
+
+        <EditText
+            android:id="@+id/edittextsample"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/enter_your_answer"
+            android:padding="10dp"
+            android:textSize="50sp" />
+
+        <Button
+            android:id="@+id/result"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:orientation="vertical">
+            android:text="@string/view_score"
+            android:textSize="25sp"
+            android:textStyle="italic" />
 
-            <RadioButton
-                android:id="@+id/yes_radio_button9"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="yes"
-                android:textAppearance="?android:textAppearanceMedium" />
 
-            <RadioButton
-                android:id="@+id/no_radio_button9"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="no"
-                android:textAppearance="?android:textAppearanceMedium" />
-        </RadioGroup>
-
-        <RadioGroup
+        <Button
+            android:id="@+id/reset"
+            style="?android:attr/buttonStyleSmall"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:orientation="vertical">
+            android:layout_gravity="center"
+            android:text="@string/reset"
+            android:textSize="25sp"
+            android:textStyle="italic" />
 
-            <RadioButton
-                android:id="@+id/yes_radio_button0"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="yes"
-                android:textAppearance="?android:textAppearanceMedium" />
+        <TextView
+            android:id="@+id/score"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp" />
 
-            <RadioButton
-                android:id="@+id/no_radio_button0"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="no"
-                android:textAppearance="?android:textAppearanceMedium" />
-        </RadioGroup>
     </LinearLayout>
 </ScrollView>
